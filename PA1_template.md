@@ -18,6 +18,7 @@ function.
 rm(list=ls())
 
 # Load the raw activity data
+
 activity_raw <- read.csv("activity.csv", stringsAsFactors=FALSE)
 ```
 
